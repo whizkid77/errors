@@ -1,4 +1,4 @@
-// Copyright 2020 PingCAP, Inc.
+// Copyright 2020 whizkid77, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import (
 // which is represented for error class. In order to parse and convert
 // json to errors.Error, using this map to convert error class to RFC
 // error code text. here is reference:
-// https://github.com/pingcap/parser/blob/release-3.0/terror/terror.go#L58
+// https://github.com/whizkid77/parser/blob/release-3.0/terror/terror.go#L58
 var class2RFCCode = map[int]string{
 	1:  "autoid",
 	2:  "ddl",
